@@ -68,17 +68,18 @@ public class JoueurDevine {
 				//Si le nombre deviné renvoie "====", alors le joueur a deviné le bon nombre. Un
 				//message s'affiche pour lui signaler qu'il a gagné en rappelant le nombre qui était à deviner.
 				System.out.println("Vous avez trouvez le bon nombre ! Il s'agissait bien de " + nbString + ".\n");
-				
+				break;
 				//La partie est finie, le menu s'affiche pour faire une autre partie, changer de mode, ou quitter le jeu.
-				menu.printMenu();
+				//menu.printMenu();
 				
 			}else if(i == 9) {
 				//Si le joueur était à sa dernière tentative et que son nombre ne correspond toujours pas à la solution,
 				//un message s'affiche pour lui signaler qu'il a perdu et pour lui donner la réponse qui était à deviner.
 				System.out.println("Vous n'avez pas trouvé le bon nombre. La solution était : " + nbString + ".\n");
 				
+				break;
 				//La partie est finie, le menu s'affiche pour faire une autre partie, changer de mode, ou quitter le jeu.
-				menu.printMenu();
+				//menu.printMenu();
 			}
 		}			
 	}
