@@ -7,12 +7,12 @@ import org.junit.jupiter.api.Test;
 public class OrdiDevineTest {
 
 	/*@Test
-	void () {
+	void TestNextTryNumber() {
 		// Arrange
-		
+		int[] test;
 
 		// Act
-		int res = ;
+		test = new chiffres[1234];
 
 		// Assert
 		assertEquals();
